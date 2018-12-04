@@ -740,8 +740,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1565789"
-     inkscape:cx="405.75334"
-     inkscape:cy="400.49536"
+     inkscape:cx="461.5313"
+     inkscape:cy="377.60738"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -750,7 +750,7 @@
      inkscape:window-width="2048"
      inkscape:window-height="1101"
      inkscape:window-x="0"
-     inkscape:window-y="348"
+     inkscape:window-y="378"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
      inkscape:snap-bbox="true"
@@ -1802,6 +1802,7 @@
            y="63.801563"><tspan
    style="fill:#59c7eb"
    id="tspan3168">&lt;</tspan>
+
 Token<tspan
    style="fill:#59c7eb"
    id="tspan3166">&gt;</tspan>
@@ -1814,7 +1815,7 @@ Token<tspan
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path3088"
-       d="m 573.8676,587.30862 c 22.17964,-20.61201 45.85116,-19.95374 70.17218,-33.84062"
+       d="m 573.8676,587.30862 c 41.20126,-40.93055 155.22545,-14.76603 179.54647,-28.65291"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient3148);stroke-width:28;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/st/authz.png" />
     <rect
