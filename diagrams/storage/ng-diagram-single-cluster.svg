@@ -17,9 +17,24 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="infinispan-next-simple.svg">
+   sodipodi:docname="ng-diagram-single-cluster.svg">
   <defs
      id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker929"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path927"
+         inkscape:connector-curvature="0" />
+    </marker>
     <marker
        inkscape:stockid="TriangleOutM"
        orient="auto"
@@ -67,29 +82,14 @@
          inkscape:connector-curvature="0" />
     </marker>
     <marker
-       inkscape:stockid="TriangleInM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker39512"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path39510"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(-0.4)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
        inkscape:stockid="TriangleOutM"
        orient="auto"
        refY="0"
        refX="0"
        id="marker38776"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          id="path38774"
@@ -431,22 +431,6 @@
          style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="scale(0.4)" />
     </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker15435-5"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.4)"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         id="path15437-2" />
-    </marker>
     <symbol
        id="icon-Icon_RH_Arrows_LowerCost-$_RGB_Flat"
        viewBox="0 0 18 32">
@@ -615,14 +599,14 @@
            id="tspan24182-8-5"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#595959;fill-opacity:1"
            x="313.61206"
-           y="590.0506">Database</tspan>
+           y="590.0506">Database / etcd</tspan>
       </text>
     </g>
     <rect
        style="fill:#cce7f5;stroke-width:1.63299334"
        id="rect32511"
        width="215.35535"
-       height="189.49741"
+       height="111.20773"
        x="455.8537"
        y="312.22855"
        inkscape:export-filename="/home/st/path40418.png"
@@ -691,8 +675,8 @@
          x="494.21368"
          y="470.20969">Infinispan</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker15435-5);marker-end:url(#marker35836)"
-       d="m 564.21369,414.03536 v 22.5"
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:1.9993701;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker35836)"
+       d="m 564.21369,412.03536 v 22.5"
        id="path35832"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -702,7 +686,7 @@
     <rect
        y="312.22855"
        x="20.853703"
-       height="189.49741"
+       height="111.20773"
        width="215.35535"
        id="rect38740"
        style="fill:#cce7f5;stroke-width:1.63299334"
@@ -775,8 +759,8 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path38758"
-       d="m 129.21369,414.03536 v 22.5"
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker39512);marker-end:url(#marker39846)"
+       d="m 129.21369,412.03536 v 22.5"
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:1.9993701;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker39846)"
        inkscape:export-filename="/home/st/path40418.png"
        inkscape:export-xdpi="295.22"
        inkscape:export-ydpi="295.22" />
@@ -806,6 +790,6 @@
        inkscape:connector-curvature="0"
        id="path603"
        d="m 564.47023,484.20966 -0.20713,77.94665 H 388.60321"
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker38776)" />
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker929)" />
   </g>
 </svg>
