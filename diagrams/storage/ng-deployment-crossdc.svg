@@ -17,12 +17,27 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="infinispan-next-crossdc.svg"
+   sodipodi:docname="ng-deployment-crossdc.svg"
    inkscape:export-filename="/home/st/bitmap.png"
    inkscape:export-xdpi="295.22"
    inkscape:export-ydpi="295.22">
   <defs
      id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5932"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path5930"
+         inkscape:connector-curvature="0" />
+    </marker>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -130,22 +145,6 @@
          transform="scale(0.4)" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker44971"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.4)"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         id="path44969" />
-    </marker>
-    <marker
        inkscape:stockid="TriangleOutM"
        orient="auto"
        refY="0"
@@ -178,38 +177,6 @@
          id="path40420" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker39846"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleOutM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4)"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         id="path39844"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="TriangleInM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker39512"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path39510"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(-0.4)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
        inkscape:stockid="TriangleOutM"
        orient="auto"
        refY="0"
@@ -221,22 +188,6 @@
       <path
          inkscape:connector-curvature="0"
          id="path38774"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="scale(0.4)" />
-    </marker>
-    <marker
-       inkscape:stockid="TriangleOutM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker35836"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path35834"
          d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
          style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="scale(0.4)" />
@@ -559,22 +510,6 @@
          style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="scale(0.4)" />
     </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker15435-5"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         transform="scale(-0.4)"
-         style="fill:#595959;fill-opacity:1;fill-rule:evenodd;stroke:#595959;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         id="path15437-2" />
-    </marker>
     <symbol
        id="icon-Icon_RH_Arrows_LowerCost-$_RGB_Flat"
        viewBox="0 0 18 32">
@@ -636,8 +571,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4305845"
-     inkscape:cx="322.73183"
-     inkscape:cy="425.45294"
+     inkscape:cx="413.95329"
+     inkscape:cy="421.25885"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -685,7 +620,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title />
@@ -704,6 +639,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-292.4)">
+    <rect
+       inkscape:export-ydpi="295.22"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-filename="/home/st/path40418.png"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.63299334"
+       id="rect151"
+       width="246.811"
+       height="381.02753"
+       x="4.8583412"
+       y="394.9133" />
     <text
        id="text16331-5"
        y="493.42957"
@@ -720,7 +665,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Keycloak</tspan></text>
     <g
        id="g34030"
-       transform="translate(-184.44292,285.47948)"
+       transform="translate(-184.44292,167.47948)"
        inkscape:export-filename="/home/st/path40418.png"
        inkscape:export-xdpi="295.22"
        inkscape:export-ydpi="295.22">
@@ -747,100 +692,9 @@
       </text>
     </g>
     <rect
-       style="fill:#cce7f5;stroke-width:1.63299334"
-       id="rect32511"
-       width="215.35535"
-       height="189.49741"
-       x="541.8537"
-       y="453.42957"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <rect
-       style="fill:#ffffff;stroke:#0088ce;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect16333-2"
-       width="180"
-       height="39.999977"
-       x="560.21368"
-       y="507.53357"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <text
-       id="text14769-5"
-       y="533.53357"
-       x="580.21368"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:start;text-anchor:start;fill:#595959"
-       xml:space="preserve"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22"><tspan
-         y="533.53357"
-         x="580.21368"
-         id="tspan14767-4"
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:2250%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Model</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#595959"
-       x="561.8537"
-       y="485.42957"
-       id="text32515"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959"
-         sodipodi:role="line"
-         id="tspan32513"
-         x="561.8537"
-         y="485.42957">Keycloak</tspan></text>
-    <rect
-       y="585.41071"
-       x="560.21368"
-       height="39.999977"
-       width="180"
-       id="rect35814"
-       style="fill:#ffffff;stroke:#3f9c35;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:start;text-anchor:start;fill:#595959"
-       x="580.21368"
-       y="611.41071"
-       id="text35818"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:2250%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-         sodipodi:role="line"
-         id="tspan35816"
-         x="580.21368"
-         y="611.41071">Infinispan</tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker15435-5);marker-end:url(#marker35836)"
-       d="m 650.21369,555.23639 v 22.5"
-       id="path35832"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <rect
-       inkscape:export-ydpi="295.22"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-filename="/home/st/path40418.png"
-       style="fill:none;stroke:#cccccc;stroke-width:1.63299334"
-       id="rect151"
-       width="349.56622"
-       height="390.11472"
-       x="4.8583412"
-       y="394.9133" />
-    <rect
        y="453.42957"
        x="20.853703"
-       height="189.49741"
+       height="112.60579"
        width="215.35535"
        id="rect38740"
        style="fill:#cce7f5;stroke-width:1.63299334"
@@ -885,42 +739,9 @@
          id="tspan38748"
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959">Keycloak</tspan></text>
-    <rect
-       style="fill:#ffffff;stroke:#3f9c35;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect38752"
-       width="180"
-       height="39.999977"
-       x="39.213688"
-       y="585.41071"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <text
-       id="text38756"
-       y="611.41071"
-       x="59.213688"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:start;text-anchor:start;fill:#595959"
-       xml:space="preserve"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22"><tspan
-         y="611.41071"
-         x="59.213688"
-         id="tspan38754"
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:2250%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Infinispan</tspan></text>
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path38758"
-       d="m 129.21369,555.23639 v 22.5"
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker39512);marker-end:url(#marker39846)"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker38776)"
-       d="m 128.54174,770.14294 v 40.25812"
+       d="m 128.54174,652.14294 v 40.25812"
        id="path38772"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -928,87 +749,14 @@
        inkscape:export-xdpi="295.22"
        inkscape:export-ydpi="295.22" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker40422);marker-end:url(#marker40780)"
-       d="M 534.60297,739.70219 H 243.21369"
-       id="path40418"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <rect
        inkscape:export-ydpi="295.22"
        inkscape:export-xdpi="295.22"
        inkscape:export-filename="/home/st/path40418.png"
-       style="fill:#c5e1c2;stroke-width:1.63299334"
-       id="rect6023"
-       width="215.35535"
-       height="52.490417"
-       x="20.853703"
-       y="713.65253" />
-    <text
-       inkscape:export-ydpi="295.22"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-filename="/home/st/path40418.png"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#595959"
-       x="40.853703"
-       y="745.65253"
-       id="text6027"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959"
-         sodipodi:role="line"
-         id="tspan6025"
-         x="40.853703"
-         y="745.65253">Infinispan server</tspan></text>
-    <path
-       inkscape:export-ydpi="295.22"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-filename="/home/st/path40418.png"
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker44971);marker-end:url(#marker45329)"
-       d="m 129.21369,633.23639 v 74.28813"
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker45329)"
+       d="m 129.21369,551.23639 v 46.28813"
        id="path44967"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path138"
-       d="m 648.60298,633.23639 v 74.28813"
-       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1175);marker-end:url(#marker1371)"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22" />
-    <g
-       id="g6190"
-       transform="translate(-2.7909546)"
-       inkscape:export-filename="/home/st/path40418.png"
-       inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22">
-      <rect
-         inkscape:export-ydpi="295.22"
-         inkscape:export-xdpi="295.22"
-         inkscape:export-filename="/home/st/path40418.png"
-         style="fill:#c5e1c2;stroke-width:1.63299334"
-         id="rect6181"
-         width="215.35535"
-         height="52.490417"
-         x="544.64465"
-         y="713.65253" />
-      <text
-         inkscape:export-ydpi="295.22"
-         inkscape:export-xdpi="295.22"
-         inkscape:export-filename="/home/st/path40418.png"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#595959"
-         x="564.64465"
-         y="745.65253"
-         id="text6185"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959"
-           sodipodi:role="line"
-           id="tspan6183"
-           x="564.64465"
-           y="745.65253">Infinispan server</tspan></text>
-    </g>
     <text
        inkscape:export-ydpi="295.22"
        inkscape:export-xdpi="295.22"
@@ -1023,40 +771,70 @@
          id="tspan153"
          x="24.858341"
          y="426.9133">Cluster</tspan></text>
+    <g
+       id="g5226"
+       transform="translate(2.7960599,5.061111)"
+       inkscape:export-filename="/home/st/path40418.png"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-ydpi="295.22">
+      <rect
+         inkscape:export-ydpi="295.22"
+         inkscape:export-xdpi="295.22"
+         inkscape:export-filename="/home/st/path40418.png"
+         y="601.97424"
+         x="35.529381"
+         height="39.999977"
+         width="180"
+         id="rect38752"
+         style="fill:#ffffff;stroke:#3f9c35;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:export-ydpi="295.22"
+         inkscape:export-xdpi="295.22"
+         inkscape:export-filename="/home/st/path40418.png"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:start;text-anchor:start;fill:#595959"
+         x="55.529381"
+         y="627.97424"
+         id="text38756"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:2250%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           sodipodi:role="line"
+           id="tspan38754"
+           x="55.529381"
+           y="627.97424">Infinispan</tspan></text>
+    </g>
     <rect
        y="394.9133"
-       x="424.43378"
-       height="390.11472"
-       width="349.56622"
-       id="rect157"
-       style="fill:none;stroke:#cccccc;stroke-width:1.63299334"
+       x="334.09439"
+       height="381.02753"
+       width="246.811"
+       id="rect6132"
+       style="fill:#ffffff;stroke:#cccccc;stroke-width:1.63299334"
        inkscape:export-filename="/home/st/path40418.png"
        inkscape:export-xdpi="295.22"
        inkscape:export-ydpi="295.22" />
     <text
-       id="text161"
-       y="426.9133"
-       x="444.43378"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#595959"
-       xml:space="preserve"
-       inkscape:export-filename="/home/st/path40418.png"
+       inkscape:export-ydpi="295.22"
        inkscape:export-xdpi="295.22"
-       inkscape:export-ydpi="295.22"><tspan
-         y="426.9133"
-         x="444.43378"
-         id="tspan159"
+       inkscape:export-filename="/home/st/path40418.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#ffffff"
+       x="397.08975"
+       y="493.42957"
+       id="text6136"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959">Cluster</tspan></text>
+         id="tspan6134"
+         x="397.08975"
+         y="493.42957">Keycloak</tspan></text>
     <g
        inkscape:export-ydpi="295.22"
        inkscape:export-xdpi="295.22"
        inkscape:export-filename="/home/st/path40418.png"
-       transform="translate(334.2262,285.47948)"
-       id="g1886"
-       style="fill:#cccccc">
+       transform="translate(144.79314,167.47948)"
+       id="g6144">
       <use
-         id="use1880"
-         style="fill:#cccccc"
+         id="use6138"
+         style="fill:#7f7f7f"
          xlink:href="#icon-Icon_RH_Hardware_Storage-A-Single_RGB_Flat"
          transform="matrix(0.09724973,0,0,0.09724973,276.4538,516.20057)"
          x="0"
@@ -1066,24 +844,135 @@
       <text
          y="590.0506"
          x="313.61206"
-         style="line-height:0%;fill:#cccccc;fill-opacity:1"
-         id="text1884">
+         style="line-height:0%;fill:#595959;fill-opacity:1"
+         id="text6142">
         <tspan
            y="590.0506"
            x="313.61206"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#cccccc;fill-opacity:1"
-           id="tspan1882"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#595959;fill-opacity:1"
+           id="tspan6140"
            sodipodi:role="line">Database</tspan>
       </text>
     </g>
+    <rect
+       inkscape:export-ydpi="295.22"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-filename="/home/st/path40418.png"
+       style="fill:#cce7f5;stroke-width:1.63299334"
+       id="rect6146"
+       width="215.35535"
+       height="112.60579"
+       x="350.08975"
+       y="453.42957" />
+    <rect
+       inkscape:export-ydpi="295.22"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-filename="/home/st/path40418.png"
+       style="fill:#ffffff;stroke:#0088ce;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6148"
+       width="180"
+       height="39.999977"
+       x="368.44974"
+       y="507.53357" />
+    <text
+       inkscape:export-ydpi="295.22"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-filename="/home/st/path40418.png"
+       id="text6152"
+       y="533.53357"
+       x="388.44974"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:start;text-anchor:start;fill:#595959"
+       xml:space="preserve"><tspan
+         y="533.53357"
+         x="388.44974"
+         id="tspan6150"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:2250%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Model</tspan></text>
+    <text
+       inkscape:export-ydpi="295.22"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-filename="/home/st/path40418.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#595959"
+       x="370.08975"
+       y="485.42957"
+       id="text6156"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959"
+         sodipodi:role="line"
+         id="tspan6154"
+         x="370.08975"
+         y="485.42957">Keycloak</tspan></text>
     <path
        inkscape:export-ydpi="295.22"
        inkscape:export-xdpi="295.22"
        inkscape:export-filename="/home/st/path40418.png"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path1888"
-       d="m 647.21086,770.14294 v 40.25812"
-       style="fill:#cccccc;fill-rule:evenodd;stroke:#cccccc;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2901)" />
+       id="path6158"
+       d="m 457.7778,652.14294 v 40.25812"
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker38776)" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6160"
+       d="m 458.44975,551.23639 v 46.28813"
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker45329)"
+       inkscape:export-filename="/home/st/path40418.png"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-ydpi="295.22" />
+    <text
+       id="text6164"
+       y="426.9133"
+       x="354.09439"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:Overpass;text-align:start;text-anchor:start;fill:#595959"
+       xml:space="preserve"
+       inkscape:export-filename="/home/st/path40418.png"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-ydpi="295.22"><tspan
+         y="426.9133"
+         x="354.09439"
+         id="tspan6162"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:100%;font-family:Overpass;-inkscape-font-specification:'Overpass, Bold';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#595959">Cluster</tspan></text>
+    <g
+       transform="translate(332.03212,5.061111)"
+       id="g6172"
+       inkscape:export-filename="/home/st/path40418.png"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-ydpi="295.22">
+      <rect
+         style="fill:#ffffff;stroke:#3f9c35;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6166"
+         width="180"
+         height="39.999977"
+         x="35.529381"
+         y="601.97424"
+         inkscape:export-filename="/home/st/path40418.png"
+         inkscape:export-xdpi="295.22"
+         inkscape:export-ydpi="295.22" />
+      <text
+         id="text6170"
+         y="627.97424"
+         x="55.529381"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:start;text-anchor:start;fill:#595959"
+         xml:space="preserve"
+         inkscape:export-filename="/home/st/path40418.png"
+         inkscape:export-xdpi="295.22"
+         inkscape:export-ydpi="295.22"><tspan
+           y="627.97424"
+           x="55.529381"
+           id="tspan6168"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:2250%;font-family:Overpass;-inkscape-font-specification:'Overpass, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Infinispan</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#595959;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6, 6;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker40422);marker-end:url(#marker40780)"
+       d="M 358.60297,625.70219 H 227.21369"
+       id="path40418"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/st/path40418.png"
+       inkscape:export-xdpi="295.22"
+       inkscape:export-ydpi="295.22" />
   </g>
 </svg>
