@@ -1,2 +1,2 @@
-Keycloak Logos and Diagrams
+Keycloak Logos, Diagrams and more
 ========
